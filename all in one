@@ -1,0 +1,26 @@
+local placeId = game.PlaceId
+
+local scriptUrls = {
+    [15154513235] = "https://raw.githubusercontent.com/omega24119/Final-key-system/main/Final%20key%20system%20kamehameha",  
+  
+[3101667897] = "https://raw.githubusercontent.com/Takatka/Key/main/Speed%20of%20legend",
+
+    [14265515277] = "https://raw.githubusercontent.com/omega24119/running-simulator-update/main/upd%20running%20hub%20added%20rebirth",
+    [16480898254] = "https://raw.githubusercontent.com/omega24119/key-eat/main/key%20eat",
+[16981421605] = "https://raw.githubusercontent.com/omega24119/Reborn-as-a-swordsman-key-obfuscated-main/main/Reborn%20as%20a%20swordsman%20obfuscate%20main%20key"
+}
+
+local function loadScript(url)
+    local success, result = pcall(function()
+        loadstring(game:HttpGet(url, true))()
+    end)
+    if not success then
+        print("Error loading script:", result)
+    end
+end
+
+if scriptUrls[placeId] then
+    loadScript(scriptUrls[placeId])
+else
+    print("Unknown place ID:", placeId)
+end
