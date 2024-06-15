@@ -7,7 +7,8 @@ local scriptUrls = {
 
     [14265515277] = "https://raw.githubusercontent.com/omega24119/running-simulator-update/main/upd%20running%20hub%20added%20rebirth",
     [16480898254] = "https://raw.githubusercontent.com/omega24119/key-eat/main/key%20eat",
-[16981421605] = "https://raw.githubusercontent.com/omega24119/Reborn-as-a-swordsman-key-obfuscated-main/main/Reborn%20as%20a%20swordsman%20obfuscate%20main%20key"
+[16981421605] = "https://raw.githubusercontent.com/omega24119/Reborn-as-a-swordsman-key-obfuscated-main/main/Reborn%20as%20a%20swordsman%20obfuscate%20main%20key",
+[3956818381] = "https://raw.githubusercontent.com/Takatka/Ninja-legends-obfuscated-new-key-system-main/main/Main%20obfuscated%20key%20ninja%20legends"
 }
 
 local function loadScript(url)
